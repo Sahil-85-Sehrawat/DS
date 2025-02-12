@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int arr[10], n;
+    
+    printf("Enter the number of elements you want (max 10):\n");
+    scanf("%d", &n);
+    
+    if (n < 1 || n > 10) {
+        printf("Please enter a number between 1 and 10.\n");
+        return 1; // Exit program with error
+    }
+
+    printf("Enter the elements:\n");
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    printf("Elements inside array are:\n");
+    for (int i = 0; i < n; i++) {
+        printf("%d\t", arr[i]);
+    }
+
+    return 0;
+}
