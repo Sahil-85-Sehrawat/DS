@@ -10,7 +10,7 @@ int linearSearch(int arr[], int n, int key) {
 }
 
 int main() {
-    int arr[50];  // Declare an array of size 50 (you can change it as needed)
+    int arr[50];  
     int n, key, result;
 
     printf("Enter the number of elements in the array (max 50): ");
