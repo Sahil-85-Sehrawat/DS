@@ -7,7 +7,7 @@ int binarySearch(int arr[], int n, int key) {
         mid = low + (high - low) / 2; 
 
         if (arr[mid] == key) {
-            return mid;  // Return the index if the key is found
+            return mid;  
         }
         else if (arr[mid] > key) {
             high = mid - 1;
