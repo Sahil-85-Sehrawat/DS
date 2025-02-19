@@ -14,7 +14,7 @@ void delete(int arr[], int *n, int pos) {
 }
 
 int main() {
-    int arr[50];  // Declare an array of size 50 (you can change it as needed)
+    int arr[50]; 
     int n, pos;
 
     printf("Enter the number of elements in the array: ");
